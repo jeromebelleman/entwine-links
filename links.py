@@ -19,3 +19,10 @@ def follow(account, inline=True):
     print '<a href="https://twitter.com/%s" class="twitter-follow-button" data-show-count="false">Follow @%s</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>' % (account, account) # pylint: disable=line-too-long
     if not inline:
         print '</p>'
+
+def wiki(article):
+    '''
+    Print Wikipedia link
+    '''
+
+    print 'https://en.wikipedia.org/wiki/' + article
