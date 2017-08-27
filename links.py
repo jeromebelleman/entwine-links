@@ -1,4 +1,4 @@
-def tweet(account, inline=True):
+def tweet(account, inline=False):
     '''
     Print Tweet button
     '''
@@ -9,7 +9,7 @@ def tweet(account, inline=True):
     if not inline:
         print '</p>'
 
-def follow(account, inline=True):
+def follow(account, inline=False):
     '''
     Print Follow button
     '''
