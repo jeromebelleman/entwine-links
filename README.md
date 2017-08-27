@@ -3,3 +3,6 @@
 
 `follow(inline=True)`
 :   Print Follow button.
+
+`wiki(article)`
+:   Print Wikipedia link.
